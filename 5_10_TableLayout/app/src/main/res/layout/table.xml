@@ -1,0 +1,15 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent">
+    <TableRow>
+        <TextView android:padding = "10px" android:textSize="15pt" android:text="국어"/>
+        <TextView android:padding = "10px" android:textSize="15pt" android:text="지구과학"/>
+        <TextView android:padding = "10px" android:textSize="15pt" android:text="수학"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:padding = "10px" android:textSize="15pt" android:text="88"/>
+        <TextView android:padding = "10px" android:textSize="15pt" android:text="92"/>
+        <TextView android:padding = "10px" android:textSize="15pt" android:text="76"/>
+    </TableRow>
+</TableLayout>
+
