@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/picture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300px"
+        android:layout_height="300px"
         android:layout_alignParentLeft="true"
         android:layout_marginRight="50px"
         android:src="@drawable/picman" />
@@ -28,17 +28,17 @@
         android:layout_toRightOf="@id/picture"
         android:text="홍길동"
         android:textColor="#0000ff"
-        android:textSize="150px" />
+        android:textSize="80px" />
 
     <TextView
         android:id="@+id/call"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@id/name"
-        android:layout_alignParentRight = "true"
+        android:layout_alignParentRight="true"
         android:text="015-123-4567"
         android:textColor="#0000ff"
-        android:textSize="100px" />
+        android:textSize="50px" />
 
     <TextView
         android:id="@+id/description"
@@ -48,5 +48,5 @@
         android:layout_alignLeft="@id/name"
         android:text="내가 그린 기린 그림? 니가 그린 기린 그림?"
         android:textColor="#000000"
-        android:textSize="100px" />
+        android:textSize="70px" />
 </RelativeLayout>
